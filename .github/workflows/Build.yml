@@ -62,12 +62,16 @@ jobs:
              |--------|--------|------|--------|
              | FW3 (iptables) | IPK (OpenWrt) | x86_64 | `xxx-fw3-ipk-x86_64-<version>.run` |
              | FW3 (iptables) | IPK (OpenWrt) | aarch64 | `xxx-fw3-ipk-aarch64-<version>.run` |
+             | FW3 (iptables) | IPK (OpenWrt) | aarch64 | `xxx-fw3-ipk-mipsel_24kc-<version>.run` |
              | FW3 (iptables) | APK (Alpine) | x86_64 | `xxx-fw3-apk-x86_64-<version>.run` |
              | FW3 (iptables) | APK (Alpine) | aarch64 | `xxx-fw3-apk-aarch64-<version>.run` |
+             | FW3 (iptables) | APK (Alpine) | aarch64 | `xxx-fw3-apk-mipsel_24kc-<version>.run` |
              | FW4 (nftables) | IPK (OpenWrt) | x86_64 | `xxx-fw4-ipk-x86_64-<version>.run` |
              | FW4 (nftables) | IPK (OpenWrt) | aarch64 | `xxx-fw4-ipk-aarch64-<version>.run` |
+             | FW4 (nftables) | IPK (OpenWrt) | aarch64 | `xxx-fw4-ipk-mipsel_24kc-<version>.run` |
              | FW4 (nftables) | APK (Alpine) | x86_64 | `xxx-fw4-apk-x86_64-<version>.run` |
              | FW4 (nftables) | APK (Alpine) | aarch64 | `xxx-fw4-apk-aarch64-<version>.run` |
+             | FW4 (nftables) | APK (Alpine) | aarch64 | `xxx-fw4-apk-mipsel_24kc-<version>.run` |
              
               <img src="https://img.shields.io/github/downloads/siropboy/CloudBuildRun/${{ env.tag_name }}/total?style=for-the-badge&label=%E4%BB%8A%E6%97%A5%E4%B8%8B%E8%BD%BD%E6%AC%A1%E6%95%B0&labelColor=427e25&color=black"/>
              </p>
